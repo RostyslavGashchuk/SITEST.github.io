@@ -430,17 +430,28 @@
 <div class="popup-fade">
 	<div class="popup">
 		<a class="popup-close" href="#"><span data-feather="x-circle" width="35" height="35"></span></a>
-		<p class="pop">Функція, яка передає дані на сервер, у розробці.</p>
-		<p class ="pop">Гарного дня </p>
+		<p class="pop ">Ваш email:</p>
+		<input type="text" size="30" class="btn btn-primary  " placeholder="example@mail.com">
+		<p>
+		<p class="pop">Виберіть замовлення:<br>
+		 <input type="radio" name="order" value="landing"> Лендинг<Br>
+		<input type="radio" name="order" value="coorp"> Корпоративний сайт<Br>
+		<input type="radio" name="order" value="internet-store"> Інтернет-магазин<Br>
+		</p>
+		<p class="pop">Коментар до замовлення:</p>
+		<textarea  name="comment" class="btn btn-primary  " cols="30" rows="1"></textarea></p>
+		<p><input type="submit" class="btn btn-primary d-inline-flex flex-row align-items-center" value="Відправити">
 
 	</div>		
 </div>
 <style type="text/css">
+.round
 .pop{
-font-style: italic;
+text-align: center;
 font-family:serif;
 font-size:25px;
 color:black;
+border-radius: 25px;
 }
 
 .popup-fade {
@@ -458,6 +469,7 @@ color:black;
 	z-index: 9999;
 }
 .popup {
+	color: black;
 	position: fixed;
 	top: 20%;
 	left: 50%;
